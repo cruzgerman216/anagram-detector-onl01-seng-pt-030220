@@ -11,6 +11,7 @@ class Anagram
     str.each do |para|
       if @gram.split("").sort.join("") == para.split("").sort.join("")
         arr << para
+        puts "nope"
       end
     end
     arr

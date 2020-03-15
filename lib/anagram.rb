@@ -19,7 +19,7 @@ class Anagram
 
 end
 listen = Anagram.new("listen")
-listen.match(%w(enlists google inlets banana))
+puts listen.match(%w(enlists google inlets banana))
 
 if "listen".split("").sort.join("") == "inlets".split("").sort.join("")
   puts "hey"

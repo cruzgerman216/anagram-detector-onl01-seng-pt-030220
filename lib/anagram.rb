@@ -6,9 +6,12 @@ class Anagram
   end
 
   def match(str)
-    puts str
+
   end
 
 end
 listen = Anagram.new("listen")
 listen.match(%w(enlists google inlets banana))
+
+if "asdf" = "sdfa"
+  puts "hey"

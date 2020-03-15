@@ -13,5 +13,5 @@ end
 listen = Anagram.new("listen")
 listen.match(%w(enlists google inlets banana))
 
-if "asdf" = "sdfa"
+if "asdf" == "sdfa"
   puts "hey"

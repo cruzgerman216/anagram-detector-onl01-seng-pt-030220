@@ -10,7 +10,7 @@ class Anagram
 
     str.each do |para|
       if @gram.split("").sort.join("") == para.split("").sort.join("")
-        arr << para
+        arr.push(para)
         puts "nope"
       end
     end

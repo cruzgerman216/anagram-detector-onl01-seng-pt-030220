@@ -16,5 +16,5 @@ listen.match(%w(enlists google inlets banana))
 if "asdf".split(" ").sort.join("") == "fsda".split(" ").sort.join("")
   puts "hey"
 end
-puts
+puts "asdf".split(" ").sort.join("")
 puts "fsda".split(" ").sort.join("")

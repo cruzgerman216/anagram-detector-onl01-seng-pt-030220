@@ -13,6 +13,6 @@ end
 listen = Anagram.new("listen")
 listen.match(%w(enlists google inlets banana))
 
-if "asdf".split(" ").sort == "fsda".split(" ").sort
+if "asdf".split(" ").sort.join("") == "fsda".split(" ").sort.join("")
   puts "hey"
 end
